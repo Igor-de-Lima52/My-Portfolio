@@ -1,6 +1,6 @@
-# 💼 Meu Portfolio
+# 💼 My Portfolio
 
-## 📚 Descrição do Projeto
+## 📚 Project Description
 
 This is my personal portfolio, developed to showcase my projects and professional information. The page has a modern and interactive design, offering a comprehensive overview of my skills and previous work.
 
