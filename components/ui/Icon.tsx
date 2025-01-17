@@ -1,4 +1,8 @@
-export const Icon = ({ className, ...rest }: any) => {
+interface Icon {
+  className: string;
+}
+
+export const Icon = ({ className, ...rest }: Icon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
