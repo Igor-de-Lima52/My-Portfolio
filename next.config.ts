@@ -1,8 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+export const nextConfig: NextConfig = {
   /* config options here */
   transpilePackages: ["three"],
 };
-
-export default nextConfig;

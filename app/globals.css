@@ -87,3 +87,14 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #000319;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #161a31;
+  border-radius: 10px;
+}

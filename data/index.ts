@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -77,8 +77,18 @@ export const projects = [
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     alt: "Elements that generally require integration with the backend, such as the links on header, are for illustration purposes only and do not have implemented functionality.",
-    img: "/p1.svg",
-    // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    img: "/p1.png",
+    iconLists: [
+      "/vite.svg",
+      "/react.svg",
+      "/js.svg",
+      "/tail.svg",
+      "/three.svg",
+      "/gsap.svg",
+      // "/html.svg",
+      // "/css.svg",
+      // "/git.svg",
+    ],
     link: "https://igorphone.netlify.app/",
     repoLink: "https://github.com/Igor-de-Lima52/iPhone-15-Pro-Website",
   },
@@ -87,8 +97,16 @@ export const projects = [
     title: "AI animated Website",
     des: "Brainwave is a web page about artificial intelligence, developed exclusively for Frontend.",
     alt: 'Elements that generally require integration with the backend, such as the "Sign In" button, are for illustration purposes only and do not have implemented functionality.',
-    img: "/p2.svg",
-    // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    img: "/p2.png",
+    iconLists: [
+      "/vite.svg",
+      "/react.svg",
+      "/js.svg",
+      "/tail.svg",
+      "/html.svg",
+      "/css.svg",
+      "/git.svg",
+    ],
     link: "https://brainwaverobot.netlify.app/",
     repoLink: "https://github.com/Igor-de-Lima52/Brainwave",
   },
@@ -96,19 +114,35 @@ export const projects = [
     id: 3,
     title: "Website to delivery coffee",
     des: "Coffeelivery is a frontend application that simulates a coffee delivery service",
-    img: "/p3.svg",
-    // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/p3.png",
+    iconLists: [
+      "/vite.svg",
+      "/react.svg",
+      "/ts.svg",
+      "/html.svg",
+      "/css.svg",
+      "/figma.svg",
+      "/git.svg",
+    ],
     link: "https://coffeelivery.netlify.app/",
     repoLink: "https://github.com/Igor-de-Lima52/Coffee-delivery",
   },
-  // {
-  //   id: 2,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/ai_saas_app",
-  // },
+  {
+    id: 4,
+    title: "Tasks Organization",
+    des: "ToDo is a task list app for creating, completing, and deleting tasks, built with React and TypeScript for efficient task management.",
+    img: "/p4.png",
+    iconLists: [
+      "/vite.svg",
+      "/react.svg",
+      "/ts.svg",
+      "/html.svg",
+      "/css.svg",
+      "/figma.svg",
+      "/git.svg",
+    ],
+    link: "https://tasksorganization.netlify.app/",
+  },
 ];
 
 export const testimonials = [
@@ -211,14 +245,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
+    link: "https://github.com/Igor-de-Lima52",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/igor-de-lima-31500523a/",
   },
 ];
